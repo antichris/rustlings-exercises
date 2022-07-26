@@ -1,26 +1,15 @@
-# Exercise to Book Chapter mapping
+# Rustlings guide solutions
 
-| Exercise               | Book Chapter        |
-| ---------------------- | ------------------- |
-| variables              | §3.1                |
-| functions              | §3.3                |
-| if                     | §3.5                |
-| primitive_types        | §3.2, §4.3          |
-| vecs                   | §8.1                |
-| move_semantics         | §4.1, §4.2          |
-| structs                | §5.1, §5.3          |
-| enums                  | §6, §18.3           |
-| strings                | §8.2                |
-| modules                | §7                  |
-| hashmaps               | §8.3                |
-| options                | §10.1               |
-| error_handling         | §9                  |
-| generics               | §10                 |
-| traits                 | §10.2               |
-| tests                  | §11.1               |
-| lifetimes              | §10.3               |
-| standard_library_types | §13.2, §15.1, §16.3 |
-| threads                | §16.1, §16.2, §16.3 |
-| macros                 | §19.6               |
-| clippy                 | n/a                 |
-| conversions            | n/a                 |
+These are my solutions to the exercises of the [Rustlings guide][rustlings] at version [5.0.0].
+
+The only resources I used in coming up with these was the [Book] and an occasional hint from the `rustlings`. Even though these might not be the most idiomatic solutions, as far as making stuff to compile and the tests to pass, this gets the job done.
+
+This repository is branch-filtered to the `exercises` subdirectory of [Rustlings 5.0.0][5.0.0] with the history limited to a depth of 1, and the [original contents of its `README.md` are here][readme-orig].
+
+[rustlings]: https://github.com/rust-lang/rustlings
+	"rust-lang/rustlings: Small exercises to get you used to reading and writing Rust code!"
+[5.0.0]: https://github.com/rust-lang/rustlings/tree/5.0.0
+	"rust-lang/rustlings at 5.0.0"
+[book]: https://doc.rust-lang.org/stable/book/
+	"The Rust Programming Language - The Rust Programming Language"
+[readme-orig]: README.o.md
