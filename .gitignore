@@ -1,0 +1,12 @@
+*.swp
+target/
+**/*.rs.bk
+.DS_Store
+*.pdb
+/clippy/Cargo.toml
+/clippy/Cargo.lock
+rust-project.json
+.idea
+.vscode
+*.iml
+*.o
